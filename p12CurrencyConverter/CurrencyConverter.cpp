@@ -18,27 +18,5 @@ int main()
 	double result = valueToBGN / currencies[outputCurrency];
 
 	cout << setprecision(2) << fixed << result << " " << outputCurrency << endl;
-	/*if (inputCurrency == "USD")
-	{
-		valueToBGN = value * currencies[inputCurrency];
-	}
-	else if (inputCurrency == "EUR") 
-	{
-		valueToBGN = value * currencies[inputCurrency];
-	}
-	else if (inputCurrency == "GBP") 
-	{
-		valueToBGN = value * currencies[inputCurrency];
-	}
-	else
-	{
-		valueToBGN = value;
-	}
-
-	double result;
-
-	if (outputCurrency == "USD")
-	{
-		result = valueToBGN / currencies[outputCurrency];
-	}*/
+	
 }
